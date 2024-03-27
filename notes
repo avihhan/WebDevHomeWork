@@ -1,0 +1,17 @@
+#####
+IMPORTANT: The mongo database is not setup. 
+Go to mongodb atlas and make a new cluster.
+#####
+
+mongodb ----------------
+user: avihanarya111
+password: zh9k4CN8PhRlyVdZ
+
+program run --------------
+# root directory : mern
+server-side: 
+    cd server
+    node --env-file=config.env server
+cleint-side:
+    cd client 
+    npm run dev 
